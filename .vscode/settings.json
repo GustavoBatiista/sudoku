@@ -1,3 +1,7 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.jupiter.api.Assertions.*"
+  ],
+  "java.format.settings.url": ".vscode/java-formatter.xml"
 }

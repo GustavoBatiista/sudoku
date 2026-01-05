@@ -42,7 +42,7 @@ public class Main {
             option = scanner.nextInt();
 
             switch (option) {
-                case 1 -> startGame(1);
+                case 1 -> startGame(positions);
                 case 2 -> inputNumber();
                 case 3 -> removeNumber();
                 case 4 -> showCurrentGame();
