@@ -1,6 +1,7 @@
 package br.com.dio.ui.custom.input;
 
 import java.awt.Font;
+import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.JTextField;
@@ -27,6 +28,7 @@ public class NumberText extends JTextField implements EventListener {
         this.setEnabled(!space.isFixed());
         if (space.isFixed()) {
             this.setText(space.getActual().toString());
+            this.setBackground(Color.GRAY);
         }
 
         this.getDocument().addDocumentListener(new DocumentListener() {
